@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EmitLog",
+      "request": "launch",
+      "mainClass": "ex6.EmitLog",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
+      "name": "ReceiveLogs",
+      "request": "launch",
+      "mainClass": "ex6.ReceiveLogs",
+      "projectName": "app"
+    },
+    {
+      "type": "java",
       "name": "Current File",
       "request": "launch",
       "mainClass": "${file}"
